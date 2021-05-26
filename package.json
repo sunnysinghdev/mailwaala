@@ -1,0 +1,23 @@
+{
+  "name": "mailwaala",
+  "version": "1.0.0",
+  "description": "send mail through gmail",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunnysinghdev/mailwaala.git"
+  },
+  "keywords": [
+    "mailwaala"
+  ],
+  "author": "sunnysingh.in",
+  "license": "ISC",
+  "dependencies": {
+    "emailjs": "^2.2.0",
+    "express": "^4.16.4"
+  }
+}
