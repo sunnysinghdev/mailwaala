@@ -3,7 +3,7 @@ var app = express();
 const mailModule = require('./mail');
 let EmailServer = mailModule.EmailServer;
 var port = process.env.PORT || 3000;
-var es = new EmailServer(null, process.env.EMAIL_PASSWORD);
+var es = new EmailServer(null, process.env.EMAIL_PASSWORD,null, 587);
 
 app.use(express.json());
 console.log(process.env.EMAIL_PASSWORD);
